@@ -41,7 +41,7 @@ public class MakeChangeApp {
 			double priceTendered = getNumber();
 
 			if (priceTendered == price) {
-				System.out.println("That's the exact amount! You 				must be some kinda rocket scientist!");
+				System.out.println("That's the exact amount! You must be some kinda rocket scientist!");
 
 			} else if (priceTendered < price) {
 				System.out.println("Get a job bum!");
