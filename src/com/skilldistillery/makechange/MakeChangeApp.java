@@ -65,7 +65,7 @@ public class MakeChangeApp {
 					change = change % 10.0;
 				}
 				if (change >= 5) {
-					int fives = (int) (change / 10);
+					int fives = (int) (change / 5);
 					System.out.println("\n" + fives + " Lincolns");
 					change = change % 5.0;
 				}
